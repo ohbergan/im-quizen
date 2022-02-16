@@ -1,11 +1,13 @@
 {
 	"name": "im-quizen",
 	"version": "1.0.0",
-	"description": "Let's you take a quiz in Norwegain to check wether or not you should choose to study IM.",
+	"description": "Let's you take a CLI-quiz in Norwegain to check wether or not you should choose to study IM.",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"bin": "./index.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ohbergan/im-quizen.git"
