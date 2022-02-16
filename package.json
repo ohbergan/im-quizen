@@ -1,16 +1,21 @@
 {
-	"name": "clinode",
+	"name": "im-quizen",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Let's you take a quiz in Norwegain to check wether or not you should choose to study IM.",
 	"main": "index.js",
-	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"bin": "./index.js",
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ohbergan/im-quizen.git"
+	},
+	"author": "Ole Halvor Lindtveit Bergan",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ohbergan/im-quizen/issues"
+	},
+	"homepage": "https://github.com/ohbergan/im-quizen#readme",
 	"dependencies": {
 		"chalk": "^5.0.0",
 		"chalk-animation": "^1.6.0",
